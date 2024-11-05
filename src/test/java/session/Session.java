@@ -6,6 +6,7 @@ import io.appium.java_client.AppiumDriver;
 public class Session {
     private static Session session = null;
     private AppiumDriver device;
+
     private Session(){
         device = FactoryDevices.make("android").create();
     }

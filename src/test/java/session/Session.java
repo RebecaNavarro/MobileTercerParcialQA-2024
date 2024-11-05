@@ -7,7 +7,6 @@ public class Session {
     private static Session session = null;
     private AppiumDriver device;
     private Session(){
-        // todo
         device = FactoryDevices.make("android").create();
     }
 
